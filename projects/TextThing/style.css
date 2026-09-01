@@ -1,0 +1,131 @@
+@font-face {
+  font-family: NixieOne;
+  src: url(NixieOne.woff);
+}
+
+@font-face {
+  font-family: LucidaGrande;
+  src: url(LucidaGrande.woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: NixieOne, "Arial Narrow", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+}
+
+span {
+    font-family: NixieOne, "Arial Narrow", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+}
+
+p {
+    font-family: LucidaGrande, Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.166);
+}
+
+#header {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.home {
+    background-image: url("hotbar/home.png")
+}
+
+.home:hover {
+    background-image: url("hotbar/home*.png")
+}
+
+.home:active {
+    background-image: url("hotbar/home**.png")
+}
+
+.projects {
+    background-image: url("hotbar/projects.png")
+}
+
+.projects:hover {
+    background-image: url("hotbar/projects*.png")
+}
+
+.projects:active {
+    background-image: url("hotbar/projects**.png")
+}
+
+.downloads {
+    background-image: url("hotbar/downloads.png")
+}
+
+.downloads:hover {
+    background-image: url("hotbar/downloads*.png")
+}
+
+.downloads:active {
+    background-image: url("hotbar/downloads**.png")
+}
+
+.about {
+    background-image: url("hotbar/about.png")
+}
+
+.about:hover {
+    background-image: url("hotbar/about*.png")
+}
+
+.about:active {
+    background-image: url("hotbar/about**.png")
+}
+
+#container {
+    width: 760px;
+    margin: 0 auto;
+    background-color: #f4ffe9;
+    padding: 20px;
+    box-shadow: 10px 10px 5px white inset;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8;}
+
+h1 {
+    margin-top: 0;
+}
+
+h3 {
+    font-family: NixieOne, "Arial Narrow", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+    margin-top: 0;
+}
+
+#footer {
+    width: 760px;
+    margin: 0 auto;
+    background-color: #31302f;
+    padding: 20px;
+    box-shadow: 10px 10px 5px white inset;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 24px;
+    margin-bottom: 100px;
+}
